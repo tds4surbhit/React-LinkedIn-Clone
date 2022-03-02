@@ -6,10 +6,15 @@
   color: grey;
   cursor: pointer;
 }
+.headerOption__icon{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
 .HeaderOption :hover {
   color: #000;
 }
-.HeaderOption__title {
+.headerOption__title {
     font-size: 12px;
     font-weight: 400;
 }

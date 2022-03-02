@@ -14,7 +14,7 @@ function Header() {
     <div className="header">
       <div className="header__left">
         <img
-          src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg"
+          src="https://i.postimg.cc/zvJGddP4/Capture.jpg"
           alt=""
         />
         <div className="header__search">
@@ -28,6 +28,7 @@ function Header() {
         <HeaderOptions Icon={BusinessCenterIcon} title="BussinessCenter" />
         <HeaderOptions Icon={ChatIcon} title="Chat" />
         <HeaderOptions Icon={NotificationsIcon} title="Notification" />
+        <HeaderOptions avatar="https://www.linkpicture.com/q/Surbhit.jpg" title="me"/>
       </div>
     </div>
   );
